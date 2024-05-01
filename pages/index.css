@@ -28,7 +28,7 @@
 
 .nav__logo {
   position: relative;
-  left: -50;
+  left: -50px;
   height: 39px;
   width: 105px;
 }
@@ -72,7 +72,7 @@
 
 .header__description {
   max-width: 683px;
-  margin: 28 0 0;
+  margin: 28 0px 0px;
   font-family: "Noto serif", "Times New Roman";
   font-style: normal;
   font-weight: normal;
