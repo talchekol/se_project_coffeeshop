@@ -123,7 +123,7 @@
   line-height: 52px;
 }
 
-.recpies__subtitle {
+.recipes__subtitle {
   max-width: 430px;
   margin-top: 24px;
   font-family: "Noto Serif", "Times New Roman";
@@ -133,7 +133,7 @@
   line-height: 30px;
 }
 
-.recpies__videos {
+.recipes__videos {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -150,7 +150,96 @@
   max-height: 273px;
 }
 
-.recpies__videos-caption {
+.recipes__videos-caption {
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(/images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: "Inter", "Ariel";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+  font-family: "Inter", "Ariel";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  border-radius: 4px;
+  height: 60px;
+  font-family: "Inter", "Ariel";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  height: 60px;
+  font-family: "Inter", "Ariel";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  font-family: "Inter", "Ariel";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
