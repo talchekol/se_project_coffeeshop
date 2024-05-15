@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- add more animation (something i personly need to improve)
+- make the page look more friendly
+- diffrent colors
+- more pictures
