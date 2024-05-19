@@ -62,7 +62,8 @@
 }
 
 .footer__copyright {
-  padding: 108px 80px 60px;
+  margin: 0;
+  padding: 108px 60px;
   color: #fff;
   font-family: "Inter", "Ariel";
   font-style: normal;

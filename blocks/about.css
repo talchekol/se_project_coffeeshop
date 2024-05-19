@@ -31,6 +31,8 @@
 }
 
 .about__paragraph {
+  margin: 0;
+  padding: 0;
 }
 
 .about__circle {
