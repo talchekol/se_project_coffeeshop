@@ -17,12 +17,9 @@
   line-height: 52px;
 }
 
-.form {
-  max-width: 385px;
-}
-
 .reservation__form {
   margin: 0 auto;
+  max-width: 385px;
 }
 
 .form__fieldset {
@@ -44,6 +41,7 @@
 .form__input {
   display: block;
   width: 100%;
+  border-radius: 4px;
   padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
@@ -59,6 +57,7 @@
 
 .form__button {
   width: 100%;
+  border-radius: 4px;
   padding: 0;
   margin-bottom: 32px;
   height: 60px;
@@ -68,7 +67,21 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed;
-  transition: background-color 1s linear 0.5s;
+  color: white;
+  animation: pulsate 2s ease-in-out;
+  /* transition: background-color 1s linear 0.5s;*/
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .form__button:hover {
@@ -78,7 +91,6 @@
   border-radius: 2px;
   height: 20px;
   width: 20px;
-  font-family: "Inter", "Ariel";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

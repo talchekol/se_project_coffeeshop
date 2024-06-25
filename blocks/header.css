@@ -4,6 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
@@ -28,6 +29,7 @@
 .nav__links {
   display: flex;
   gap: 20px;
+  margin: 0;
   list-style-type: none;
   font-family: "Inter", "Arial";
   font-style: normal;
