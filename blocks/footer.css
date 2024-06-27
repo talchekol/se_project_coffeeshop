@@ -15,11 +15,14 @@
   width: 105px;
 }
 
+.footer__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__social-heading {
   color: white;
   margin-bottom: 20px;
-  margin: 0;
-  padding: 0;
   font-family: "Inter", "Ariel";
   font-style: normal;
   font-weight: bold;
@@ -43,7 +46,7 @@
 .footer__social-link {
   color: white;
   text-decoration: none;
-  font-family: "Inter", "Ariel";
+  font-family: "Inter", "Arial";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -65,7 +68,7 @@
   margin: 0;
   padding: 0 0 60px 80px;
   color: #fff;
-  font-family: "Inter", "Ariel";
+  font-family: "Inter", "Arial";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
