@@ -15,14 +15,9 @@
   width: 105px;
 }
 
-.footer__heading {
-  display: flex;
-  justify-content: space-between;
-}
-
 .footer__social-heading {
   color: white;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   font-family: "Inter", "Ariel";
   font-style: normal;
   font-weight: bold;
